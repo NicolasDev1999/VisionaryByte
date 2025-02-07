@@ -1,0 +1,18 @@
+
+.App{
+    background: var( --background-color);
+   h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    color: var(--text-color-dark);
+   }
+   a{
+    color: var(--text-color-dark);
+   }
+   ul{
+    color: var(--text-color-dark);
+   }
+   link{
+    color: var(--text-color-dark);
+   }
+   
+}

@@ -1,0 +1,75 @@
+.information-content{
+    display: flex;
+    min-height: 69vh; 
+    background: linear-gradient(90deg, #1a1a2e, #16213e, #0f3460, #53354a, #6f2232);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s ease infinite;
+    }
+    @keyframes gradientAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+  
+  .banner-text-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    color: white;
+    background-size: cover;
+    z-index: 1;
+    padding:0px 20px;
+    text-align: justify;
+    box-shadow: 3px -20px 20px 20px rgba(0, 0, 0, 0.2);
+  }
+  .skills-list {
+    color: rgb(255, 255, 255);
+    list-style-type: disc;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  .skills-list li {
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 768px){
+   .banner-text-info{
+      width: auto;
+      max-width: 100%; 
+      padding: 10px;
+      overflow-y: auto; 
+      border-radius: 8px;
+      font-size: 16px;
+      margin: 0;
+   }
+   .information-content{
+    background:#ffffff00;
+   }
+   .banner-image_about{
+    display: none;
+   }
+  }
+  
+  .banner-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .banner-image_about{
+    width: 50%;
+    background: url('/public/imagenes/imageAbout.png') no-repeat center center; 
+    background-size: cover; 
+    background-position: inherit;
+    background-color: transparent;
+  }
+  
+ 
+  

@@ -1,0 +1,89 @@
+/* Tema Claro */
+:root {
+    /* Colores Primarios */
+    --primary-color: #3498db; /* Azul Principal */
+    --secondary-color: #2ecc71; /* Verde */
+    --accent-color: #f39c12; /* Amarillo */
+    --tertiary-color: #e74c3c; /* Rojo */
+    
+    /* Colores de Fondo */
+    --background-color: #ffffff; /* Fondo Claro */
+    --background-alt: #34495e; /* Fondo Alternativo */
+    
+    /* Colores de Texto */
+    --text-color-light: #ffffff; /* Texto Blanco */
+    --text-color-dark: #000000; /* Texto Blanco */
+    --text-muted: #7f8c8d; /* Texto Suave */
+    --text-accent: #f39c12; /* Texto Acento */
+    
+    /* Colores de Bordes */
+    --border-color-light: #bdc3c7; /* Borde Claro */
+    --border-color-dark: #7f8c8d; /* Borde Oscuro */
+    
+    /* Colores de Estado */
+    --error-color: #e74c3c; /* Error Rojo */
+    --success-color: #27ae60; /* Éxito Verde */
+    --warning-color: #f39c12; /* Advertencia Amarillo */
+    --info-color: #3498db; /* Información Azul */
+    
+    /* Colores Neutrales */
+    --neutral-light: #ecf0f1; /* Neutro Claro */
+    --neutral-dark: #2c3e50; /* Neutro Oscuro */
+    
+    /* Colores Secundarios */
+    --pink: #e91e63; /* Rosa */
+    --purple: #9b59b6; /* Morado */
+    --indigo: #3f51b5; /* Índigo */
+    --cyan: #00bcd4; /* Cian */
+    --teal: #009688; /* Verde Teal */
+    --orange: #ff5722; /* Naranja */
+    --lime: #cddc39; /* Lima */
+    --brown: #795548; /* Marrón */
+    --grey: #9e9e9e; /* Gris */
+    
+    /* Colores Transparente */
+    --transparent: rgba(0, 0, 0, 0); /* Transparente */
+    
+    /* Colores de Gradiente */
+    --gradient-start: #3498db; /* Gradiente Inicio Azul */
+    --gradient-end: #f39c12; /* Gradiente Fin Amarillo */
+    
+    /* Colores de Sombras */
+    --shadow-light: rgba(0, 0, 0, 0.1); /* Sombra Ligera */
+    --shadow-dark: rgba(0, 0, 0, 0.3); /* Sombra Oscura */
+}
+
+  
+  /* Tema Oscuro */
+  [data-theme="dark"] {
+    --background-color: #000000;
+    --text-color-dark: #ffffff;
+    --primary-color: #312769;
+    --secondary-color: #b0bec5;
+    --accent-color: #ff7043;
+    --muted-text: #bdbdbd;
+  
+    /* Gradientes */
+    --gradient-light: linear-gradient(135deg, #424242, #303030);
+    --gradient-dark: linear-gradient(135deg, #1c1c1c, #000000);
+  
+    /* Colores de Header y Nav */
+    --header-bg: #1f1f1f;
+    --nav-bg: #242424;
+    --nav-text: #e0e0e0;
+    --nav-hover: #64b5f6;
+  
+    /* Colores para Botones */
+    --button-primary: #64b5f6;
+    --button-secondary: #90a4ae;
+    --button-accent: #ff7043;
+    --button-success: #66bb6a;
+    --button-warning: #ffca28;
+    --button-danger: #ef5350;
+    --button-text: #121212;
+  
+    /* Efectos */
+    --shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    --border-radius: 8px;
+  }
+  

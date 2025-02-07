@@ -1,0 +1,47 @@
+/* Contenedor principal del banner */
+.banner {
+    display: flex;
+    height: 100vh;
+  }
+
+  .banner-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+
+  .banner-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .banner-text h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .banner-image {
+    flex: 1; 
+    background: url('/public/imagenes/Banner-imagen.png') no-repeat center center; 
+    background-size: cover; 
+    background-position: center;
+    background-color: transparent;
+  }
+
+  @media(max-width: 768px){
+    .banner{
+      display: flex;
+      flex-direction: column;
+     
+    }
+    .banner-text{
+      position: absolute;
+      padding: 10px;
+    }
+  }
+  
+  
