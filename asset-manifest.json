@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/VisionaryByte/static/css/main.53d0d7d6.css",
-    "main.js": "/VisionaryByte/static/js/main.1a4ce9d4.js",
+    "main.css": "/VisionaryByte/static/css/main.58f067b3.css",
+    "main.js": "/VisionaryByte/static/js/main.e3a1265f.js",
     "static/media/Banner-imagen.png": "/VisionaryByte/static/media/Banner-imagen.68043f7e0b9a77d65db9.png",
     "static/media/imageAbout.png": "/VisionaryByte/static/media/imageAbout.c47151727e8c104e6fb0.png",
     "static/media/slick.svg": "/VisionaryByte/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -9,11 +9,11 @@
     "static/media/slick.ttf": "/VisionaryByte/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/VisionaryByte/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/VisionaryByte/index.html",
-    "main.53d0d7d6.css.map": "/VisionaryByte/static/css/main.53d0d7d6.css.map",
-    "main.1a4ce9d4.js.map": "/VisionaryByte/static/js/main.1a4ce9d4.js.map"
+    "main.58f067b3.css.map": "/VisionaryByte/static/css/main.58f067b3.css.map",
+    "main.e3a1265f.js.map": "/VisionaryByte/static/js/main.e3a1265f.js.map"
   },
   "entrypoints": [
-    "static/css/main.53d0d7d6.css",
-    "static/js/main.1a4ce9d4.js"
+    "static/css/main.58f067b3.css",
+    "static/js/main.e3a1265f.js"
   ]
 }
