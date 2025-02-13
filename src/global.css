@@ -27,7 +27,7 @@
     --info-color: #3498db; /* Información Azul */
     
     /* Colores Neutrales */
-    --neutral-light: #ecf0f1; /* Neutro Claro */
+    --neutral-light: #000000; /* Neutro Claro */
     --neutral-dark: #2c3e50; /* Neutro Oscuro */
     
     /* Colores Secundarios */
@@ -85,5 +85,8 @@
     /* Efectos */
     --shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
     --border-radius: 8px;
+    /* Colores Neutrales */
+    --neutral-light: #ffffff; /* Neutro Claro */
+    
   }
   

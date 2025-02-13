@@ -1,20 +1,19 @@
 import { useEffect, useState } from "react";
 import "./CursorMonster.css";
 
-export default function CursorMonster() {
-  const [lines, setLines] = useState([]);
+export default function CursorWebNebula() {
+  const [points, setPoints] = useState([]);
 
   useEffect(() => {
     const handleMouseMove = (e) => {
-      setLines((prevLines) => [
-        ...prevLines.slice(-50), // Limita la cantidad de líneas para evitar exceso de elementos
+      setPoints((prevPoints) => [
+        ...prevPoints.slice(-50), // Limita la cantidad de puntos
         {
           x: e.clientX,
           y: e.clientY,
           id: Math.random(),
-          opacity: Math.random() * 0.5 + 0.5, // Opacidad variable para efecto de nebulosa
-          size: Math.random() * 5 + 2, // Tamaño variable de las líneas
-          hue: Math.floor(Math.random() * 360), // Color aleatorio
+          opacity: Math.random() * 0.7 + 0.3,
+          size: Math.random() * 6 + 2,
         },
       ]);
     };
@@ -25,20 +24,41 @@ export default function CursorMonster() {
 
   return (
     <div className="cursor-container">
-      {lines.map((line) => (
+      {points.map((point, i) => (
         <div
-          key={line.id}
-          className="cursor-line"
+          key={point.id}
+          className="cursor-point"
           style={{
-            top: line.y,
-            left: line.x,
-            width: `${line.size}px`,
-            height: `${line.size * 10}px`,
-            backgroundColor: `hsla(${line.hue}, 100%, 70%, ${line.opacity})`,
-            transform: `rotate(${Math.random() * 360}deg)`,
+            top: point.y,
+            left: point.x,
+            width: `${point.size}px`,
+            height: `${point.size}px`,
           }}
         />
       ))}
+      {points.map((p1, i) =>
+        points.map((p2, j) => {
+          if (i !== j) {
+            const distance = Math.hypot(p2.x - p1.x, p2.y - p1.y);
+            if (distance < 100) {
+              return (
+                <div
+                  key={`line-${p1.id}-${p2.id}`}
+                  className="cursor-line"
+                  style={{
+                    top: `${(p1.y + p2.y) / 2}px`,
+                    left: `${(p1.x + p2.x) / 2}px`,
+                    width: `${distance}px`,
+                    opacity: 1 - distance / 100,
+                    transform: `rotate(${Math.atan2(p2.y - p1.y, p2.x - p1.x)}rad)`,
+                  }}
+                />
+              );
+            }
+          }
+          return null;
+        })
+      )}
     </div>
   );
 }
