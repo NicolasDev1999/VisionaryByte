@@ -1,13 +1,13 @@
 /* Tema Claro */
 :root {
     /* Colores Primarios */
-    --primary-color: #3498db; /* Azul Principal */
+    --primary-color:  linear-gradient(130deg, #808080, #ffffff36); /* Azul Principal */
     --secondary-color: #2ecc71; /* Verde */
     --accent-color: #f39c12; /* Amarillo */
     --tertiary-color: #e74c3c; /* Rojo */
     
     /* Colores de Fondo */
-    --background-color: #ffffff; /* Fondo Claro */
+    --background-color: #d4d4d4; /* Fondo Claro */
     --background-alt: #34495e; /* Fondo Alternativo */
     
     /* Colores de Texto */
@@ -56,9 +56,9 @@
   
   /* Tema Oscuro */
   [data-theme="dark"] {
-    --background-color: #000000;
+    --background-color:linear-gradient(135deg, #0d0d0d, #8b0000, #b0b0b0);
     --text-color-dark: #ffffff;
-    --primary-color: #312769;
+    --primary-color: linear-gradient(135deg, #0d0d0d, #8b0000);
     --secondary-color: #b0bec5;
     --accent-color: #ff7043;
     --muted-text: #bdbdbd;

@@ -1,7 +1,7 @@
 .theme-toggle-button {
   padding: 12px 24px;
   border-radius: 12px;
-  background: linear-gradient(to right, #3498db, #9b59b6); /* Degradado de azul a morado */
+  background: linear-gradient(to right, #696b6d, #6e6d6d); /* Degradado de azul a morado */
   color: white;
   font-weight: 600;
   font-size: 1.125rem; /* Tamaño de fuente grande */
@@ -9,10 +9,11 @@
   transition: all 0.3s ease-in-out;
   border: none;
   cursor: pointer;
+  margin-right: 15%;
 }
 
 .theme-toggle-button:hover {
-  background: linear-gradient(to right, #2980b9, #8e44ad); /* Colores más oscuros en el hover */
+  background: linear-gradient(135deg, #0d0d0d, #8b0000  ); /* Colores más oscuros en el hover */
 }
 
 .theme-toggle-button:focus {

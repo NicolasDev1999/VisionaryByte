@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from "framer-motion";
 import './Banner.css';
-
+import CursorMonster from '../CursorMonster/CursorMonster';
 const Banner = () => {
   
   const [textIndex, setTextIndex] = useState(0);
@@ -23,8 +23,9 @@ const Banner = () => {
             <h1>Bienvenido</h1>
             <h2><span className="changing-text">{texts[textIndex]}</span></h2>
         </div>
-        <div className="banner-image"></div>
-      
+
+       {/* <div className="banner-image"></div> */}
+      <CursorMonster/>
     </motion.div>
     
   );

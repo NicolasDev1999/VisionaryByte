@@ -8,9 +8,10 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content:center;
+    align-items: center;
     padding: 2rem;
+    background: url('/public/imagenes/Banner-imagen.png') no-repeat right center;
   }
 
   .banner-text h1 {
@@ -19,14 +20,15 @@
   }
   
   .banner-text h2 {
+    color: var( --accent-color);
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0;
   }
 
   .banner-image {
     flex: 1; 
-    background: url('/public/imagenes/Banner-imagen.png') no-repeat center center; 
+    
     background-size: cover; 
     background-position: center;
     background-color: transparent;
