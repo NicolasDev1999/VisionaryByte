@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/VisionaryByte/static/css/main.5cdd6e53.css",
-    "main.js": "/VisionaryByte/static/js/main.dcb0b5f3.js",
+    "main.css": "/VisionaryByte/static/css/main.6b4a4c9e.css",
+    "main.js": "/VisionaryByte/static/js/main.8a704a78.js",
     "static/media/backg-banner-1.png": "/VisionaryByte/static/media/backg-banner-1.2e277ebb361460f2e1c4.png",
     "static/media/backg-banner-2.png": "/VisionaryByte/static/media/backg-banner-2.27af3fc073e1903be04b.png",
-    "static/media/imageAbout.png": "/VisionaryByte/static/media/imageAbout.c47151727e8c104e6fb0.png",
     "static/media/slick.svg": "/VisionaryByte/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/VisionaryByte/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/VisionaryByte/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/VisionaryByte/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/VisionaryByte/index.html",
-    "main.5cdd6e53.css.map": "/VisionaryByte/static/css/main.5cdd6e53.css.map",
-    "main.dcb0b5f3.js.map": "/VisionaryByte/static/js/main.dcb0b5f3.js.map"
+    "main.6b4a4c9e.css.map": "/VisionaryByte/static/css/main.6b4a4c9e.css.map",
+    "main.8a704a78.js.map": "/VisionaryByte/static/js/main.8a704a78.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cdd6e53.css",
-    "static/js/main.dcb0b5f3.js"
+    "static/css/main.6b4a4c9e.css",
+    "static/js/main.8a704a78.js"
   ]
 }
